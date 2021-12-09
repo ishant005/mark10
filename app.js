@@ -15,9 +15,11 @@ hideMessage();
     }
     else{
        showMessage("The cash provided should atleast be equal to the bill amount");
+       calculateChange(0);
     }
   }else{
       showMessage("Invalid Bill Amount");
+      calculateChange(0);
   }
 
 
